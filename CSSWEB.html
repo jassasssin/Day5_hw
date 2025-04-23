@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Life Portal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: #000;
+      color: #fff;
+    }
+    header {
+      background: #000000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #00ffff;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .container {
+      padding: 20px;
+    }
+    .section {
+      background: #00ffff;
+      color: #000000;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    .section h2 {
+      background: #000000;
+      color: rgb(255, 255, 255);
+      padding: 10px;
+      margin: -20px -20px 10px -20px;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+    }
+    .announcement {
+      background: #00ffff;
+      color: rgb(0, 0, 0);
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 10px;
+      font-weight: 500;
+      border: #000;
+      border-style:groove;
+      border-radius:20px;
+      border-width: 5px;
+    
+    }
+    .announcement small {
+      display: block;
+      font-size: 0.85em;
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #000a1f;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+<header id="home">
+  <h1>Student Life Portal</h1>
+  <p>Your go-to spot for campus updates, events, and community news.</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#campus-news">Campus News</a>
+  <a href="#events">Events</a>
+  <a href="#clubs">Clubs</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+  <div class="section" id="campus-news">
+    <h2>Welcome, Students!</h2>
+    <p>Explore the latest happenings on campus, discover new clubs, and never miss an event. This portal is built for students, by students.</p>
+  </div>
+
+  <div class="section" id="events">
+    <h2>Latest Campus Buzz</h2>
+    <div class="announcement">
+      <strong>Kurukshetra 2025 Announced!</strong>
+      <small>September 25, 2025 - by ITM Events Team</small>
+      Get ready for live music, food trucks, games, and more!. Don't miss out!
+    </div>
+    <div class="announcement">
+        <strong>Subject: HTML</strong>
+        <small>leacture taken by Pooonam Ma'am</small>
+        Daily lectures from 10:00am to 11:30pm.
+    </div>
+    <div class="announcement">
+        <strong>Subject: CSS</strong>
+        <small>leacture taken by Pooonam Ma'am</small>
+        Daily lectures from 11:45am to 1:15pm.
+    </div>
+    <div class="announcement">
+        <strong>Subject: German</strong>
+        <small></small>
+        Daily lectures from 11:45am to 1:15pm.
+    </div>
+    
+  </div>
+
+  <div class="section" id="clubs">
+    <h2>Clubs</h2>
+    <p>Join clubs that match your interests—coding, art, music, debate, sports, and more. Find your community on campus!</p>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Contact</h2>
+    <p>Have questions or suggestions? Reach out to us at <a href="mailto:itmskills@university.edu" style="color: #8000ff;">itmskills@university.edu</a>.</p>
+  </div>
+</div>
+
+<footer>
+  &copy; 2025 Student Life Portal
+</footer>
+
+</body>
+</html>
